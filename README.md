@@ -1,0 +1,2 @@
+Movie O2 is a free social platform created by Donzz. It can be yours right now, simply download mobile application on <a href="http://543to1.com/">the preview page</a>. The app is open source, and you can use it for any purpose, personal or commercial.</p>
+                <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> and bootstrap theme by <a href="http://startbootstrap.com/templates/grayscale/">grayscale</a>.
