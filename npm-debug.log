@@ -1,0 +1,153 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'chromeos-apk@latest' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 verbose cache add [ 'chromeos-apk@latest', null ]
+5 verbose cache add name=undefined spec="chromeos-apk@latest" args=["chromeos-apk@latest",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'chromeos-apk@latest',
+6 verbose parsed url   path: 'chromeos-apk@latest',
+6 verbose parsed url   href: 'chromeos-apk@latest' }
+7 verbose cache add name="chromeos-apk" spec="latest" args=["chromeos-apk","latest"]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'latest',
+8 verbose parsed url   path: 'latest',
+8 verbose parsed url   href: 'latest' }
+9 verbose addNamed [ 'chromeos-apk', 'latest' ]
+10 verbose addNamed [ null, null ]
+11 silly lockFile db0e37c9-chromeos-apk-latest chromeos-apk@latest
+12 verbose lock chromeos-apk@latest /Users/Ymow/.npm/db0e37c9-chromeos-apk-latest.lock
+13 info addNameTag [ 'chromeos-apk', 'latest' ]
+14 verbose request where is /chromeos-apk
+15 verbose request registry https://registry.npmjs.org/
+16 verbose request id 58c2b0c79929a844
+17 verbose url raw /chromeos-apk
+18 verbose url resolving [ 'https://registry.npmjs.org/', './chromeos-apk' ]
+19 verbose url resolved https://registry.npmjs.org/chromeos-apk
+20 verbose request where is https://registry.npmjs.org/chromeos-apk
+21 info trying registry request attempt 1 at 15:37:30
+22 http GET https://registry.npmjs.org/chromeos-apk
+23 http 200 https://registry.npmjs.org/chromeos-apk
+24 silly registry.get cb [ 200,
+24 silly registry.get   { date: 'Sat, 20 Sep 2014 07:37:30 GMT',
+24 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 silly registry.get     etag: '"50JHTX863WXJ2SXNYN4M75W2I"',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'cache-control': 'max-age=60',
+24 silly registry.get     'content-length': '10014',
+24 silly registry.get     'accept-ranges': 'bytes',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     age: '1092',
+24 silly registry.get     'x-served-by': 'cache-ty66-TYO',
+24 silly registry.get     'x-cache': 'MISS',
+24 silly registry.get     'x-cache-hits': '0',
+24 silly registry.get     'x-timer': 'S1411198650.619859,VS0,VE195',
+24 silly registry.get     vary: 'Accept',
+24 silly registry.get     'keep-alive': 'timeout=10, max=50',
+24 silly registry.get     connection: 'Keep-Alive' } ]
+25 verbose addNamed [ 'chromeos-apk', '2.0.0' ]
+26 verbose addNamed [ '2.0.0', '2.0.0' ]
+27 silly lockFile 60af0102-chromeos-apk-2-0-0 chromeos-apk@2.0.0
+28 verbose lock chromeos-apk@2.0.0 /Users/Ymow/.npm/60af0102-chromeos-apk-2-0-0.lock
+29 silly lockFile 82f85095-omeos-apk-chromeos-apk-2-0-0-tgz https://registry.npmjs.org/chromeos-apk/-/chromeos-apk-2.0.0.tgz
+30 verbose lock https://registry.npmjs.org/chromeos-apk/-/chromeos-apk-2.0.0.tgz /Users/Ymow/.npm/82f85095-omeos-apk-chromeos-apk-2-0-0-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/chromeos-apk/-/chromeos-apk-2.0.0.tgz',
+31 verbose addRemoteTarball   '59b0d81a2ad7a9f756f5e5af3086867ff10249bb' ]
+32 info retry fetch attempt 1 at 15:37:30
+33 verbose fetch to= /var/folders/f0/y2vtsrnn4nnc1bf21c_dtpzr0000gn/T/npm-1980-yLTvc1BL/registry.npmjs.org/chromeos-apk/-/chromeos-apk-2.0.0.tgz
+34 http GET https://registry.npmjs.org/chromeos-apk/-/chromeos-apk-2.0.0.tgz
+35 http 200 https://registry.npmjs.org/chromeos-apk/-/chromeos-apk-2.0.0.tgz
+36 silly lockFile 82f85095-omeos-apk-chromeos-apk-2-0-0-tgz https://registry.npmjs.org/chromeos-apk/-/chromeos-apk-2.0.0.tgz
+37 silly lockFile 82f85095-omeos-apk-chromeos-apk-2-0-0-tgz https://registry.npmjs.org/chromeos-apk/-/chromeos-apk-2.0.0.tgz
+38 silly lockFile 60af0102-chromeos-apk-2-0-0 chromeos-apk@2.0.0
+39 silly lockFile 60af0102-chromeos-apk-2-0-0 chromeos-apk@2.0.0
+40 silly lockFile db0e37c9-chromeos-apk-latest chromeos-apk@latest
+41 silly lockFile db0e37c9-chromeos-apk-latest chromeos-apk@latest
+42 silly resolved [ { name: 'chromeos-apk',
+42 silly resolved     version: '2.0.0',
+42 silly resolved     description: 'Run Android APKs on Chromebooks',
+42 silly resolved     main: 'chromeos-apk.js',
+42 silly resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+42 silly resolved     bin: { 'chromeos-apk': 'chromeos-apk' },
+42 silly resolved     repository:
+42 silly resolved      { type: 'git',
+42 silly resolved        url: 'https://github.com/vladikoff/chromebook-apk-creator.git' },
+42 silly resolved     author: { name: 'Vlad Filippov' },
+42 silly resolved     license: 'MIT',
+42 silly resolved     bugs: { url: 'https://github.com/vladikoff/chromebook-apk-creator/issues' },
+42 silly resolved     homepage: 'https://github.com/vladikoff/chromebook-apk-creator',
+42 silly resolved     dependencies:
+42 silly resolved      { 'apk-parser2': '^0.1.1',
+42 silly resolved        chalk: '^0.5.1',
+42 silly resolved        commander: '^2.3.0',
+42 silly resolved        ncp: '^0.6.0' },
+42 silly resolved     gitHead: '69a8b2fa03b399992d79f6bba799373f1771489a',
+42 silly resolved     _id: 'chromeos-apk@2.0.0',
+42 silly resolved     _shasum: '59b0d81a2ad7a9f756f5e5af3086867ff10249bb',
+42 silly resolved     _from: 'chromeos-apk@latest',
+42 silly resolved     _npmVersion: '1.4.23',
+42 silly resolved     _npmUser: { name: 'vladikoff', email: 'vlad@vladikoff.com' },
+42 silly resolved     maintainers: [ [Object] ],
+42 silly resolved     dist:
+42 silly resolved      { shasum: '59b0d81a2ad7a9f756f5e5af3086867ff10249bb',
+42 silly resolved        tarball: 'http://registry.npmjs.org/chromeos-apk/-/chromeos-apk-2.0.0.tgz' },
+42 silly resolved     directories: {},
+42 silly resolved     _resolved: 'https://registry.npmjs.org/chromeos-apk/-/chromeos-apk-2.0.0.tgz' } ]
+43 info install chromeos-apk@2.0.0 into /usr/local/lib
+44 info installOne chromeos-apk@2.0.0
+45 verbose lib/node_modules/chromeos-apk unbuild
+46 verbose tar unpack /Users/Ymow/.npm/chromeos-apk/2.0.0/package.tgz
+47 silly lockFile 96c3a402-al-lib-node-modules-chromeos-apk tar:///usr/local/lib/node_modules/chromeos-apk
+48 verbose lock tar:///usr/local/lib/node_modules/chromeos-apk /Users/Ymow/.npm/96c3a402-al-lib-node-modules-chromeos-apk.lock
+49 silly lockFile f4ec78c9-m-chromeos-apk-2-0-0-package-tgz tar:///Users/Ymow/.npm/chromeos-apk/2.0.0/package.tgz
+50 verbose lock tar:///Users/Ymow/.npm/chromeos-apk/2.0.0/package.tgz /Users/Ymow/.npm/f4ec78c9-m-chromeos-apk-2-0-0-package-tgz.lock
+51 silly gunzTarPerm modes [ '755', '644' ]
+52 error Error: EACCES, mkdir '/usr/local/lib/node_modules/chromeos-apk'
+52 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/chromeos-apk']
+52 error   errno: 3,
+52 error   code: 'EACCES',
+52 error   path: '/usr/local/lib/node_modules/chromeos-apk',
+52 error   fstream_type: 'Directory',
+52 error   fstream_path: '/usr/local/lib/node_modules/chromeos-apk',
+52 error   fstream_class: 'DirWriter',
+52 error   fstream_stack:
+52 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+52 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+52 error      'Object.oncomplete (fs.js:107:15)' ] }
+53 error Please try running this command again as root/Administrator.
+54 error System Darwin 14.0.0
+55 error command "node" "/usr/local/bin/npm" "install" "-g" "chromeos-apk@latest"
+56 error cwd /Users/Ymow/project/MovieO2LaunchPage
+57 error node -v v0.10.30
+58 error npm -v 1.4.21
+59 error path /usr/local/lib/node_modules/chromeos-apk
+60 error fstream_path /usr/local/lib/node_modules/chromeos-apk
+61 error fstream_type Directory
+62 error fstream_class DirWriter
+63 error code EACCES
+64 error errno 3
+65 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/chromeos-apk'
+66 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+66 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+66 error fstream_stack Object.oncomplete (fs.js:107:15)
+67 verbose exit [ 3, true ]
